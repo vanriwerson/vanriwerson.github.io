@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
 --oxford-blue: #011936ff;
@@ -23,4 +24,8 @@ body {
     font-family: 'Mr Dafoe', sans-serif;
     font-size: 70px;
     font-weight: 400;
+}
+
+.about-container p {
+    font-family: 'Roboto', sans-serif;
 }
