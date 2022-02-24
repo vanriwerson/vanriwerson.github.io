@@ -1,0 +1,18 @@
+:root {
+--oxford-blue: #011936ff;
+--lavender-web: #e5e1eeff;
+--medium-aquamarine: #5fdd9dff;
+--middle-green: #499167ff;
+--rifle-green: #3f4531ff;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--oxford-blue);
+    color: var(--lavender-web);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
