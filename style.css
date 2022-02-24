@@ -30,6 +30,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.about-container strong {
+    font-style: italic;
+    color: var(--medium-aquamarine);
+}
+
+.about-container em {
+    font-style: normal;
+    font-weight: bold;
+    color: var(--middle-green);
+}
+
 .skills-container {
     background-color: var(--rifle-green);
     line-height: 30px;
