@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
 :root {
 --oxford-blue: #011936ff;
 --lavender-web: #e5e1eeff;
@@ -15,4 +17,10 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+}
+
+.author-container h3 {
+    font-family: 'Mr Dafoe', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
 }
