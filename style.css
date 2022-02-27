@@ -11,18 +11,26 @@
 --lavender-web: #e5e1eeff;
 --medium-aquamarine: #5fdd9dff;
 --middle-green: #499167ff;
---rifle-green: rgb(39, 54, 3);
+--rifle-green: rgb(33, 46, 1);
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--oxford-blue);
     color: var(--lavender-web);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
+    text-align: center;
+}
+
+.author-container {
+    background-color: var(--rifle-green);
+    width: 90vw;
+    margin: 12px auto;
+    display: inline-block;
+}
+
+.profile-photo {
+    border-radius: 12px 70px;
+    margin: 12px auto;
 }
 
 .author-container h3 {
