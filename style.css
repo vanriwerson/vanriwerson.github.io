@@ -21,6 +21,39 @@ body {
     text-align: center;
 }
 
+nav {
+    background-color: var(--rifle-green);
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 12px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    width: 90vw;
+}
+
+nav ul li a {
+    margin: 0 3px;
+    padding: 12px;
+    vertical-align: middle;
+    border-radius: 12px;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--lavender-web);
+    transition: .3s ease;
+}
+
+nav ul li a:hover {
+    background-color: var(--middle-green);
+    color: var(--oxford-blue);
+}
+
 .author-container {
     background-color: var(--rifle-green);
     width: 90vw;
