@@ -50,7 +50,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: var(--green-spring);
+    background-color: var(--geyser);
     color: var(--outer-space);
 }
 
@@ -62,7 +62,7 @@ h1 {
 .author-container {
     background-color: var(--asparagus);
     width: 90vw;
-    height: 430px;
+    height: fit-content;
     margin: 12px auto;
     border-radius: 12px;
     box-shadow: 3px 3px 7px var(--outer-space);
@@ -80,30 +80,32 @@ h1 {
 
 .author-container h2 {
     font-family: 'Mr Dafoe', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
 }
 
 .author-container p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
     width: 90%;
     text-align: justify;
     margin-left: 18px;
     padding: 12px;
 }
 
-.about-container p {
-    font-family: 'Roboto', sans-serif;
-}
-
-.about-container strong {
+.author-container strong {
     font-style: italic;
-    color: var(--green-spring);
+    color: var(--mineral-green);
 }
 
-.about-container em {
+.author-container em {
     font-style: normal;
     font-weight: bold;
     color: var(--outer-space);
+}
+
+.about-container p {
+    font-family: 'Roboto', sans-serif;
 }
 
 .skills-container {
