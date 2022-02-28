@@ -23,7 +23,8 @@ body {
 
 nav {
     background-color: var(--rifle-green);
-    position: fixed;
+    position: absolute;
+    top: 0;
     width: 100vw;
     height: 50px;
     display: flex;
@@ -35,18 +36,17 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    width: 90vw;
+    margin-right: 30px;
 }
 
 nav ul li a {
     margin: 0 3px;
     padding: 12px;
-    vertical-align: middle;
     border-radius: 12px;
     font-size: 18px;
     text-decoration: none;
     color: var(--lavender-web);
-    transition: .3s ease;
+    transition: .7s ease;
 }
 
 nav ul li a:hover {
@@ -54,22 +54,41 @@ nav ul li a:hover {
     color: var(--oxford-blue);
 }
 
+h1 {
+    display: block;
+    margin-top: 62px;
+}
+
 .author-container {
     background-color: var(--rifle-green);
     width: 90vw;
+    height: 430px;
     margin: 12px auto;
-    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 3px 3px 7px var(--middle-green);
 }
 
-.profile-photo {
+#profile-photo {
+    background-color: var(--middle-green);
+    width: 180px;
     border-radius: 12px 70px;
-    margin: 12px auto;
+    float: left;
+    margin: 12px;
+    padding: 3px;
+    box-shadow: 1px 1px 7px var(--middle-green);
 }
 
-.author-container h3 {
+.author-container h2 {
     font-family: 'Mr Dafoe', sans-serif;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 400;
+}
+
+.author-container p {
+    width: 90%;
+    text-align: justify;
+    margin-left: 18px;
+    padding: 12px;
 }
 
 .about-container p {
@@ -98,13 +117,18 @@ nav ul li a:hover {
     list-style-type: square;
 }
 
+.skill:nth-of-type(odd) {
+    background-color: var(--middle-green);
+    border-radius: 7px;
+}
+
 /*Classes para cada skill, com base na maestria*/
 .m1 {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .m2 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .m3 {
@@ -112,9 +136,9 @@ nav ul li a:hover {
 }
 
 .m4 {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .m5 {
-    font-size: 24px;
+    font-size: 30px;
 }
