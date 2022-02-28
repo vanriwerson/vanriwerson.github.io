@@ -7,22 +7,22 @@
 }
 
 :root {
---oxford-blue: #011936ff;
---lavender-web: #e5e1eeff;
---medium-aquamarine: #5fdd9dff;
---middle-green: #499167ff;
---rifle-green: rgb(33, 46, 1);
+--outer-space: #1b2727;
+--mineral-green: #3c5148;
+--geyser: #d5dddf;
+--green-spring: #b2c5b2;
+--asparagus: #6b8e4e;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--oxford-blue);
-    color: var(--lavender-web);
+    background-color: var(--mineral-green);
+    color: var(--geyser);
     text-align: center;
 }
 
 nav {
-    background-color: var(--rifle-green);
+    background-color: var(--outer-space);
     position: absolute;
     top: 0;
     width: 100vw;
@@ -45,13 +45,13 @@ nav ul li a {
     border-radius: 12px;
     font-size: 18px;
     text-decoration: none;
-    color: var(--lavender-web);
-    transition: .7s ease;
+    color: var(--geyser);
+    transition: .5s ease;
 }
 
 nav ul li a:hover {
-    background-color: var(--middle-green);
-    color: var(--oxford-blue);
+    background-color: var(--green-spring);
+    color: var(--outer-space);
 }
 
 h1 {
@@ -60,22 +60,22 @@ h1 {
 }
 
 .author-container {
-    background-color: var(--rifle-green);
+    background-color: var(--asparagus);
     width: 90vw;
     height: 430px;
     margin: 12px auto;
     border-radius: 12px;
-    box-shadow: 3px 3px 7px var(--middle-green);
+    box-shadow: 3px 3px 7px var(--outer-space);
 }
 
 #profile-photo {
-    background-color: var(--middle-green);
+    background-color: var(--outer-space);
     width: 180px;
     border-radius: 12px 70px;
     float: left;
     margin: 12px;
     padding: 3px;
-    box-shadow: 1px 1px 7px var(--middle-green);
+    box-shadow: 1px 1px 7px var(--outer-space);
 }
 
 .author-container h2 {
@@ -97,17 +97,17 @@ h1 {
 
 .about-container strong {
     font-style: italic;
-    color: var(--medium-aquamarine);
+    color: var(--green-spring);
 }
 
 .about-container em {
     font-style: normal;
     font-weight: bold;
-    color: var(--middle-green);
+    color: var(--outer-space);
 }
 
 .skills-container {
-    background-color: var(--rifle-green);
+    background-color: var(--asparagus);
     line-height: 30px;
     padding: 20px;
     border-radius: 7px;
@@ -118,7 +118,7 @@ h1 {
 }
 
 .skill:nth-of-type(odd) {
-    background-color: var(--middle-green);
+    background-color: var(--outer-space);
     border-radius: 7px;
 }
 
