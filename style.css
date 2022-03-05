@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
     margin: 0;
@@ -15,22 +15,28 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color: var(--mineral-green);
     color: var(--geyser);
+}
+
+header {
+    background-color: var(--outer-space);
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 80px;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
     text-align: center;
 }
 
 nav {
-    background-color: var(--outer-space);
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    margin-bottom: 12px;
+    margin-top: 30px;
 }
 
 nav ul {
@@ -54,37 +60,67 @@ nav ul li a:hover {
     color: var(--outer-space);
 }
 
-h1 {
-    display: block;
-    margin-top: 62px;
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.author-container {
-    background-color: var(--asparagus);
+.presentation {
+    display: inline-block;
+    background-color: var(--green-spring);
+    color: var(--outer-space);
     width: 90vw;
     height: fit-content;
-    margin: 12px auto;
+    margin: 172px auto 20px;
+    padding: 20px;
     border-radius: 12px;
     box-shadow: 3px 3px 7px var(--outer-space);
 }
 
-#profile-photo {
+.presentation-card {
+    float: left;
+    width: 60%;
+    border-radius: 12px;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 7px var(--outer-space);
+}
+
+.presentation-card img {
     background-color: var(--outer-space);
     width: 180px;
     border-radius: 12px 70px;
     float: left;
-    margin: 12px;
-    padding: 3px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 1px 1px 7px var(--asparagus);
+}
+
+.presentation-card p {
+    float: right;
+    width: 50%;
+    margin: 20px;
+    text-align: justify;
+}
+
+.presentation aside {
+    background-color: var(--asparagus);
+    float: right;
+    width: 20%;
+    height: fit-content;
+    border-radius: 12px;
+    padding: 20px;
+    margin-right: 20px;
     box-shadow: 1px 1px 7px var(--outer-space);
 }
 
-.author-container h2 {
-    font-family: 'Mr Dafoe', sans-serif;
-    font-size: 50px;
-    font-weight: 400;
+.about {
+    width: 96vw;
+    background-color: var(--asparagus);
+    border-radius: 12px;
 }
 
-.author-container p {
+.about p {
     font-family: 'Roboto', sans-serif;
     line-height: 24px;
     width: 90%;
@@ -93,19 +129,15 @@ h1 {
     padding: 12px;
 }
 
-.author-container strong {
+.about strong {
     font-style: italic;
     color: var(--mineral-green);
 }
 
-.author-container em {
+.about em {
     font-style: normal;
     font-weight: bold;
     color: var(--outer-space);
-}
-
-.about-container p {
-    font-family: 'Roboto', sans-serif;
 }
 
 .skills-container {

@@ -1,86 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Conheça um Dev</title>
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Conheça um Dev</title>
+</head>
+
+<body>
+  <header>
+    <h1>Boas-vindas ao meu Portfólio</h1>
     <nav>
       <ul>
         <li><a href="#about">Sobre mim</a></li>
         <li><a href="#skills">Minha Skill list</a></li>
-        <li><a href="#references">Referências (Galera que me encanta!)</a></li>
+        <li><a href="#skills">Meus projetos</a></li>
+        <li>
+          <a href="#references">Referências (Galera que me encanta!)</a>
+        </li>
       </ul>
     </nav>
+  </header>
 
-    <h1>Boas-vindas ao meu Portfólio</h1>
+  <main>
+    <section class="presentation">
+      <h2 class="section-title">Full Stack Web Development Student at Trybe</h2>
+      <div class="presentation-card">
+        <img id="profile-photo" src="https://avatars.githubusercontent.com/u/90273809?v=4" alt="Foto de perfil de Bruno Riwerson Silva" />
+        <p>Muito prazer! Meu nome é Bruno Riwerson Silva. Estou muito feliz que esteja interessado em meu trabalho.</p>
+        <p>Aqui você terá a oportunidade de me conhecer melhor, acompanhar minha evolução nessa jornada de formação em Dev Full Stack e entrar em contato comigo para tirar dúvidas e contratar meus serviços.</p>
+        <p>Vamos lá!</p>
+      </div>
 
-    <div class="author-container">
-      <h2>Bruno Riwerson Silva</h2>
-      <img
-        id="profile-photo"
-        src="https://avatars.githubusercontent.com/u/90273809?v=4"
-        alt="Foto de perfil de Bruno Riwerson Silva"
-      />
-      <p>Full Stack Web Development Student at Trybe</p>
+      <aside class="projects">
+        <h2 class="section-title">Conheça alguns de meus projetos</h2>
+        <ul>
+          <li><a href="./projects/lessons-learned/">Lessons learned</a></li>
+          <li><a href="./index.html">Em construção...</a></li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="about">
+      <h2 class="section-title" id="about">Sobre mim</h2>
       <p>
         Apaixonado por tecnologia desde criança, principalmente por jogos
         eletrônicos, descobri meu interesse por programação
-        <strong>buscando soluções</strong> para agilizar meu trabalho. A partir
-        disso, minha curiosidade só aumentou. Saí do <em>VBA</em> e busquei
-        conhecimento em <em>HTML, CSS, Javascript, Python</em> e muitas outras
-        ferramentas, que me deram a base para o que busco hoje, que é me
-        aprofundar e profissionalizar. <br>Tenho muito orgulho de minha
-        <em>retórica e didática</em>, construídas ao longo de minha atuação como
-        <strong
-          >monitor voluntário e professor particular de violão e
-          guitarra.</strong
-        >
-        Sou <strong>brasileiro</strong>, nascido em <em>Limeira-SP</em> e atualmente resido em <strong>Araras-SP</strong>.
+        <strong>buscando soluções</strong> para agilizar meu trabalho. A
+        partir disso, minha curiosidade só aumentou. Saí do <em>VBA</em> e
+        busquei conhecimento em <em>HTML, CSS, Javascript, Python</em> e
+        muitas outras ferramentas, que me deram a base para o que busco hoje,
+        que é me aprofundar e profissionalizar. <br />Tenho muito orgulho de
+        minha <em>retórica e didática</em>, construídas ao longo de minha
+        atuação como
+        <strong>monitor voluntário e professor particular de violão e
+          guitarra.</strong>
+        Sou <strong>brasileiro</strong>, nascido em <em>Limeira-SP</em> e
+        atualmente resido em <strong>Araras-SP</strong>.
       </p>
-    </div>
+    </section>
+  </main>
 
-    <div class="about-container">
-      <h3 id="about">Sobre mim</h3>
+  <div class="skills-container">
+    <h2 class="section-title" id="skills">Minha Skill list (Sempre em construção)</h2>
+    <ul>
+      <li class="skill m2">HTML</li>
+      <li class="skill m1">CSS</li>
+      <li class="skill m3">Javascript</li>
+      <li class="skill m4">Retórica</li>
+      <li class="skill m5">Didática</li>
+    </ul>
+  </div>
 
-    </div>
+  <div class="references-container">
+    <h2 class="section-title" id="references">Galera que me encanta! (E ajuda também ^^)</h2>
+    <ul>
+      <li>
+        <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">Gustavo Guanabara</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/c/FilipeDeschamps" target="_blank">Filipe Deschamps</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/c/codigofontetv" target="_blank">Código Fonte TV</a>
+      </li>
+    </ul>
+  </div>
 
-    <div class="skills-container">
-      <h3 id="skills">Minha Skill list (Sempre em construção)</h3>
-      <ul>
-        <li class="skill m2">HTML</li>
-        <li class="skill m1">CSS</li>
-        <li class="skill m3">Javascript</li>
-        <li class="skill m4">Retórica</li>
-        <li class="skill m5">Didática</li>
-      </ul>
-    </div>
+  <a href="#profile-photo">De volta ao início</a>
+</body>
 
-    <div class="references-container">
-      <h3 id="references">Galera que me encanta! (E ajuda também ^^)</h3>
-      <ul>
-        <li>
-          <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank"
-            >Gustavo Guanabara</a
-          >
-        </li>
-        <li>
-          <a href="https://www.youtube.com/c/FilipeDeschamps" target="_blank"
-            >Filipe Deschamps</a
-          >
-        </li>
-        <li>
-          <a href="https://www.youtube.com/c/codigofontetv" target="_blank"
-            >Código Fonte TV</a
-          >
-        </li>
-      </ul>
-    </div>
-
-    <a href="#profile-photo">De volta ao início</a>
-  </body>
 </html>
