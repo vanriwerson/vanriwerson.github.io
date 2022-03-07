@@ -68,8 +68,8 @@ nav ul li a:hover {
     color: var(--outer-space);
 }
 
-main {
-    padding-top: 160px;
+.void {
+    height: 160px;
 }
 
 .section-title {
