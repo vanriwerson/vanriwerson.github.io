@@ -31,6 +31,9 @@ header {
     padding: 40px;
     box-sizing: border-box;
     text-align: center;
+}
+
+.light-shadow {
     box-shadow: 0 0 5px 2px var(--asparagus);
 }
 
@@ -155,38 +158,22 @@ nav ul li a:hover {
 }
 
 .skills-list {
-    background-color: var(--asparagus);
+    background-color: var(--outer-space);
     line-height: 30px;
 }
 
-.skills-list .skill {
-    list-style-type: square;
+
+.skills-list ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-.skill:nth-of-type(odd) {
-    background-color: var(--outer-space);
+.skill img {
+    width: 50px;
     border-radius: 7px;
-}
-
-/*Classes para cada skill, com base na maestria*/
-.m1 {
-    font-size: 12px;
-}
-
-.m2 {
-    font-size: 16px;
-}
-
-.m3 {
-    font-size: 20px;
-}
-
-.m4 {
-    font-size: 24px;
-}
-
-.m5 {
-    font-size: 30px;
 }
 
 footer {
