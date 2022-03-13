@@ -92,7 +92,10 @@ nav ul li a:hover {
     background-color: var(--green-spring);
     color: var(--outer-space);
     height: 380px;
-    box-shadow: 3px 3px 7px var(--outer-space);
+}
+
+.heavy-shadow {
+    box-shadow: 0 0 5px 2px var(--outer-space);
 }
 
 .presentation-card {
@@ -101,17 +104,13 @@ nav ul li a:hover {
     border-radius: 12px;
     margin-left: 20px;
     padding: 20px;
-    box-shadow: 1px 1px 7px var(--outer-space);
 }
 
 .presentation-card img {
-    background-color: var(--asparagus);
     width: 180px;
     border-radius: 12px 70px;
     float: left;
-    padding: 20px;
     margin: 20px;
-    box-shadow: 1px 1px 7px var(--outer-space);
 }
 
 .presentation-card p {
@@ -133,7 +132,8 @@ nav ul li a:hover {
 }
 
 .about {
-    background-color: var(--asparagus);
+    background-color: var(--mineral-green);
+    color: var(--geyser);
     border-radius: 12px;
 }
 
@@ -144,17 +144,6 @@ nav ul li a:hover {
     text-align: justify;
     margin-left: 18px;
     padding: 12px;
-}
-
-.about strong {
-    font-style: italic;
-    color: var(--mineral-green);
-}
-
-.about em {
-    font-style: normal;
-    font-weight: bold;
-    color: var(--outer-space);
 }
 
 .skills-list {
