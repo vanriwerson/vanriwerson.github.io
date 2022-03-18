@@ -89,9 +89,11 @@ nav ul li a:hover {
 }
 
 .presentation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: var(--green-spring);
   color: var(--outer-space);
-  height: 380px;
 }
 
 .heavy-shadow {
@@ -99,10 +101,9 @@ nav ul li a:hover {
 }
 
 .presentation-card {
-  float: left;
   width: 60%;
   border-radius: 12px;
-  margin-left: 20px;
+  margin-right: 20px;
   padding: 20px;
 }
 
@@ -114,7 +115,6 @@ nav ul li a:hover {
 }
 
 .presentation-card p {
-  float: right;
   width: 50%;
   margin: 20px;
   text-align: justify;
@@ -125,10 +125,8 @@ nav ul li a:hover {
   color: var(--geyser);
   float: right;
   width: 20%;
-  height: fit-content;
   border-radius: 12px;
   padding: 20px;
-  margin-right: 20px;
 }
 
 .projects ul {
