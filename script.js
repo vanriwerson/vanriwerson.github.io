@@ -1,5 +1,4 @@
-let skillsList = document.getElementsById("skills");
-let top = skillsList.getAttribute("top");
-let left = skillsList.getAttribute("left");
+const directMessage = document.getElementById('direct-msg');
+const WHATSAPP_CONTACT = +55019991550438;
 
-console.log(top, left);
+directMessage.setAttribute('href', `https://api.whatsapp.com/send?phone=${WHATSAPP_CONTACT}`);
