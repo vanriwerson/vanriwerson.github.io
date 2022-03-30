@@ -13,11 +13,9 @@
 <body>
   <header>
     <h1>Boas-vindas ao meu Portfólio</h1>
-    <div class="logo-container">
-      <a href="./index.html">BRS-Dev</a>
-    </div>
-    <div class="nav-container">
-      <nav>
+    <div class="nav-wrapper">
+      <a href="./index.html" id="logo">BRS-Dev</a>
+      <nav class="nav-container">
         <ul>
           <li><a href="#">Início</a></li>
           <li><a href="#">Sobre mim</a></li>
@@ -27,9 +25,9 @@
       </nav>
     </div>
   </header>
-  <main>
-    <section class="main-content">
-      <aside class="presentation card">
+  <main class="container-fluid">
+    <section class="main-content row">
+      <aside class="presentation card col-sm-2">
         <h4>Full Stack Web Development Student at Trybe</h4>
         <div class="img-container">
           <!-- <img src="./imgs/profile1.jpeg" alt="Foto de perfil de Bruno" id="profile-photo"> -->
@@ -39,20 +37,25 @@
           Dev Full Stack e entrar em contato comigo para tirar dúvidas e contratar meus serviços.</p>
         <p>Vamos lá!</p>
       </aside>
-      <section class="about-me">
+      <section class="about-me col-sm-6">
         <div class="cta-container">
           <h4 class="text-center">Precisando de um Desenvolvedor Web?</h4>
           <p class="direct-container"><a target="_blank" rel="noopener noreferrer" id="direct-msg">Chama aqui!</a></p>
         </div>
         <h4 class="section-title">Um pouco de minha história</h4>
         <p>
-          Apaixonado por tecnologia desde criança, principalmente por jogos eletrônicos, descobri meu interesse por programação <strong>buscando soluções</strong> para agilizar meu trabalho. A partir disso, minha curiosidade só aumentou. Saí do <em>VBA</em> e busquei conhecimento em <em>HTML, CSS, Javascript, Python</em> e muitas outras ferramentas, que me deram a base para o que busco hoje, que é me aprofundar e profissionalizar.
+          Apaixonado por tecnologia desde criança, principalmente por jogos eletrônicos, descobri meu interesse por
+          programação <strong>buscando soluções</strong> para agilizar meu trabalho. A partir disso, minha curiosidade
+          só aumentou. Saí do <em>VBA</em> e busquei conhecimento em <em>HTML, CSS, Javascript, Python</em> e muitas
+          outras ferramentas, que me deram a base para o que busco hoje, que é me aprofundar e profissionalizar.
         </p>
         <p>
-          Tenho muito orgulho de minha <em>retórica e didática</em>, construídas ao longo de minha atuação como <strong>monitor voluntário</strong> e <strong>professor particular de violão e guitarra</strong>. Sou <strong>brasileiro</strong>, nascido em <em>Limeira-SP</em>. Atualmente resido em <em>Araras-SP</em>.
+          Tenho muito orgulho de minha <em>retórica e didática</em>, construídas ao longo de minha atuação como
+          <strong>monitor voluntário</strong> e <strong>professor particular de violão e guitarra</strong>. Sou
+          <strong>brasileiro</strong>, nascido em <em>Limeira-SP</em>. Atualmente resido em <em>Araras-SP</em>.
         </p>
       </section>
-      <aside class="skill-list card">
+      <aside class="skill-list card col-sm-2">
         <h4 class="text-center">Minhas Skills</h4>
         <p>Sempre em desenvolvimento</p>
         <section class="hard-skills-container">
